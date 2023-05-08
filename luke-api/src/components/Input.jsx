@@ -43,6 +43,7 @@ const Input = (props) => {
                     <input onChange={(e) => {setId(e.target.value)}}type="text" value={id}/>
                 <div>
                     <button>Find</button>
+                    {/* <h1>Serch</h1> */}
                 </div>
                     <h1 style={{ color: 'blue'}}>May the force be with you, for now...</h1>
                     {console.log(subjects)}
