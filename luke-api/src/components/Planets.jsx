@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect, useState} from 'react';
 
+
 import { useParams } from 'react-router';
 
 import axios from 'axios';
@@ -34,7 +35,7 @@ const Planets = (props) => {
 
         
         return (
-            <div style={(StyleSheet.author, { height: "100%", textAlign: "center", backgroundImage: 'url(https://www.pixel4k.com/wp-content/uploads/2018/03/Star%20Wars%20Fiction%20Planet3652411811.jpg)' })}>
+            <div style={(StyleSheet.author, { width: "100%", height: "600px", textAlign: "center", backgroundImage: 'url(https://www.pixel4k.com/wp-content/uploads/2018/03/Star%20Wars%20Fiction%20Planet3652411811.jpg)', backgroundSize: "100%" })}>
             <h1 style={{color: 'green'}}>Planets of the galaxy</h1>
         {<h1 style={{color: 'white'}}><strong>Planet {users.name}</strong></h1>}
         {<p style={{color: 'white'}}><strong>Climate: {users.climate}</strong></p>}

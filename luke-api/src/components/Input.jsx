@@ -1,5 +1,6 @@
 import React, { useState, useParams } from 'react';
 
+
 import { useHistory } from 'react-router';
 
 const Input = (props) => {
@@ -26,7 +27,7 @@ const Input = (props) => {
 
 
     return (
-        <div className="fill-window"  style={(StyleSheet.author, { textAlign: "center", backgroundImage: 'url(https://i.pinimg.com/originals/5d/c2/7f/5dc27fba2d50fa85aef623d440356f04.jpg)' })}>
+        <div style={(StyleSheet.author, { textAlign: "center", backgroundImage: 'url(https://i.pinimg.com/originals/5d/c2/7f/5dc27fba2d50fa85aef623d440356f04.jpg)' })}>
             <form onSubmit={handleSubmit}>
                 {/* {JSON.stringify(subjects)}
                 {JSON.stringify(id)} */}

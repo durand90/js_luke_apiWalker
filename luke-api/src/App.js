@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css';
+// import './App.css';
 
 //import Fetch from './components/Fetch';
 import Input from './components/Input';
