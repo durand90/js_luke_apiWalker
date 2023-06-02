@@ -19,7 +19,7 @@ const People = (props) => {
 
     useEffect(() => {
         axios.get(`https://swapi.dev/api/people/${id}`)
-            .then(response => {a
+            .then(response => {
                 console.log(response.data)
                 setUser(response.data)
                 setError(false)
