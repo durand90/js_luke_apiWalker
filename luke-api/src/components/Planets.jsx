@@ -52,7 +52,7 @@ else  {
         <div style={(StyleSheet.author, { textAlign: "center", })}>
         <h1>These are not the PLANETS you're looking for!!!!!</h1>
         <img alt='star wars pic' src="https://assets1.ignimgs.com/2017/07/06/darthmaul-1280-1499381595354_160w.jpg?width=1280"/>
-        </div>
+        </div>jkhg
     );
 }
 
